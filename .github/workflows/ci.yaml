@@ -27,7 +27,7 @@ jobs:
         run: |
           python -m unittest discover -v
   build:
-    name: Python Unit Test
+    name: Python Build
     runs-on: ubuntu-latest
     needs: test 
     permissions:
